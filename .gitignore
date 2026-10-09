@@ -1,0 +1,41 @@
+# Python environments and generated files
+.producer-venv/
+venv/
+airflow/venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.crt
+secrets/
+
+# Generated logs and local runtime output
+*.log
+spark_output.log
+
+# Spark local state and dependency caches
+spark/checkpoints/
+spark/ivy-cache/
+
+# Airflow and database runtime data
+airflow/logs/
+airflow/plugins/
+airflow/config/
+postgres-data/
+
+# Local IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Working screenshots; selected publishable screenshots are copied to docs/screenshots/
+Projet-Taxi/
